@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Alfa+Slab+One&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Alfa+Slab+One&display=swap"rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=BBH+Sans+Hegarty&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Festive&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Home Page</title>
 </head>
@@ -17,13 +17,13 @@
         <nav>
             <img src="images/LogoFesteva.png" class="logo" alt="Logo Festiva">
             <ul>
-                <a>
+                <a href="Home.html">
                     <li>Home</li>
                 </a>
-                <a>
+                <a href="Event.html">
                     <li>Event</li>
                 </a>
-                <a>
+                <a href="blog.html">
                     <li>Blog</li>
                 </a>
                 <a>
@@ -50,11 +50,11 @@
         <div class="container-search">
             <div class="group-form">
                 <label for="Search-Event">Search Event</label>
-                <input id="Search-Event" type="text">
+                <input id="Search-Event" type="text" value="Konser Jazz">
             </div>
             <div class="group-form">
                 <label for="Place">Place</label>
-                <input id="Place" type="text">
+                <input id="Place" type="text" value="Indonisia">
             </div>
             <div class="group-form">
                 <label for="Time">Time</label>
@@ -72,7 +72,7 @@
             <div class="container-event">
                 <div class="header-event">
                     <h1>Upcoming Events</h1>
-                    <div>
+                    <div class="filter-section-event">
                         <select>
                             <option value="">wednesday</option>
                             <option value="">wednesday</option>
@@ -194,8 +194,8 @@
             </div>
         </section>
         <section id="section-Blog">
-            <h1>Join these brands</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem blanditiis veritatis eius sequi fugiat voluptate, consequuntur totam magnam quia! Iste, aut maiores? Odio odit reprehenderit, nesciunt voluptates ut provident esse?</p>
+            <h1 class="section-title">Blog</h1>
+            <p class="section-sous-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem blanditiis veritatis eius sequi fugiat voluptate, consequuntur totam magnam quia! Iste, aut maiores? Odio odit reprehenderit, nesciunt voluptates ut provident esse?</p>
             <div class="container-blog-card">
                 <div class="blog-card">
                     <img src="images/Rectangle 12-3.png" alt="annonce event">
@@ -220,8 +220,8 @@
             <div class="container-btn-load-more"> <a href="$" class="btn-load-more">Load More</a></div>
         </section>
         <section id="section-Brands">
-            <h1>Blog</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem blanditiis veritatis eius sequi fugiat voluptate, consequuntur totam magnam quia! Iste, aut maiores? Odio odit reprehenderit, nesciunt voluptates ut provident esse?</p>
+            <h1 class="section-title">Join these brands</h1>
+            <p class="section-sous-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem blanditiis veritatis eius sequi fugiat voluptate, consequuntur totam magnam quia! Iste, aut maiores? Odio odit reprehenderit, nesciunt voluptates ut provident esse?</p>
             <div class="container-Brands">
                 <div class="brand-icon"><img src="images/image 4.png" alt="spootify"></div>
                 <div class="brand-icon"><img src="images/image 5.png" alt="spootify"></div>
@@ -274,6 +274,9 @@
                 <input type="text" placeholder="Entrer your email adresse">
                 <button>Subscribe</button>
             </div>
+        </div>
+        <div class="copyRight">
+            <h3>Copyright © 2025 Avi Yansah</h3>
         </div>
 
     </footer>
