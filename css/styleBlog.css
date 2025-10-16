@@ -194,6 +194,7 @@ a li{
 /*------------------------------------------------section blog -------------------------------------------*/
 #section-Blog{
     padding: 100px;
+    padding-bottom: 10px;
 }
 #section-Blog h1,p{
     text-align: center;
@@ -237,20 +238,6 @@ a li{
 }
 .blog-card img{
     width: 100%;
-}
-.container-btn-load-more{
-    width: 100%;
-    text-align: center;
-}
-.btn-load-more{
-    border: 2px solid #242565;
-    border-radius: 50px;
-    width: 100px;
-    padding: 20px;
-    text-decoration: none;
-    font-family: var(--font-Dm-Sans);
-    font-weight: 100px;
-
 }
 /*--------------------------------------------section Brands-----------------------------------------------------------------------------*/
 #section-Brands {

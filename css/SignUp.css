@@ -1,0 +1,134 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    width: 100%;
+    height: 720px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+/* ------------------left card -----------------------------------*/
+.left-card{
+    width: 50%;
+    margin: 0px;
+    padding: 0%;
+    background-image: url(/images/bg2.png);
+    object-fit: cover;
+  object-position: center;
+}
+.header-SignIn{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-SignIn a{
+    width: 30%;
+    height: 60px;
+    margin-right: 10px;
+    background-color: brown;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.left-card h1{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 60px;
+    color: white;
+
+}
+.left-card .bottom-btn-SignIn{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.left-card .bottom-btn-SignIn a{
+    width: 35%;
+    height: 70px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+#btn-non-selectionner{
+    border: 2px solid white;
+}
+#btn-selectionner{
+   background-color: brown;
+}
+/*--------------------right card--------------------------------*/
+.right-card {
+    width: 50%;
+    padding: 100px;
+    padding-top: 50px;
+    background-color: #E0C6EB;
+}
+.right-card h1{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    font-weight: 900px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+    
+}  
+.right-card .form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.right-card .form-group label{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+.right-card .form-group input{
+    height: 80px;
+    border-radius: 50px;
+    padding-left: 20px;
+    font-size: 20px;
+    background-color: transparent;
+}
+.right-card button{
+    width: 35%;
+    height: 70px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    box-shadow: 10px 10px 50px black ;
+    margin: 0px auto;
+    background-color: brown;
+}
+
+
+
+
+
