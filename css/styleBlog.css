@@ -1,0 +1,355 @@
+:root {
+  --white-color: #ffffff;
+  --primary-color: #242565;
+  --secondary-color: #3D37F1;
+  --section-bg-color: #ffffff;
+  --custom-btn-bg-color: #F5167E;
+  --custom-btn-bg-hover-color: #F5167E;
+  --custom-btn-filter :#F2F4FF;
+  --dark-color: #4c4848;
+  --p-color: #717275;
+  --border-color-white: #ffffff;
+  --border-color-primary: #ffffff;
+  --link-hover-color: #F5167E;
+
+  --Blog-Event-font-family:"Alfa Slab One", serif;
+  --Home-font-family:"ADLaM Display", system-ui;
+
+  --h1-font-size: 74px;
+  --h2-font-size: 46px;
+  --h3-font-size: 32px;
+  --h4-font-size: 28px;
+  --h5-font-size: 24px;
+  --h6-font-size: 22px;
+  --p-font-size: 18px;
+  --btn-font-size: 14px;
+  --copyright-font-size: 16px;
+
+  --border-radius-large: 100px;
+  --border-radius-medium: 20px;
+  --border-radius-small: 10px;
+
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+}
+body{
+    padding: 0%;
+    margin: 0%;
+    overflow-x: hidden;
+}
+/*----------------------------------------------header------------------------------------------------*/
+header{
+    width: 100%;
+    height: 730px;
+    position: relative;
+    background-color: aliceblue;
+    background-image: url(/images/Background.png);
+    background-size: cover;
+    z-index: 1;
+}
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding-left: 100px;
+}
+ul{
+    width: 50%;
+    list-style-type: none;
+    display: flex;
+    margin-left: auto;
+    margin-right: 10%;
+}
+
+a {
+    text-decoration: none;
+    text-decoration-line: none;
+}
+
+a li{
+    color: var(--border-color-white);
+    font-weight: bold;
+    padding: 10px 50px 10px 50px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav-btn{
+    border: 1px solid var(--border-color-white);
+    justify-content: center;
+    border-radius: 50PX;
+    margin-right: 20px;
+    width: 60px;
+    text-align: center;
+}
+
+.logo{
+    padding: 10px 0px 10px 0px ;
+}
+
+.overlay{
+    position: absolute;
+    background-image: url(/images/bg2.png);
+    background-size: contain;
+    background-size: cover;
+    backdrop-filter: blur(300px);
+    opacity: 80%;
+    inset: 0;
+    z-index: -1;
+}
+.header-content{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.header-title{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.header-title h1{
+    font-weight: bolder;
+    font-size: 56px;
+    color: var(--border-color-white);
+    font-family: var(--Home-font-family);
+}
+.header-title p{
+    width: 70%;
+    text-align: center;
+    font-size: 16px;
+    color: var(--border-color-white);
+    font-family: var(--Home-font-family);
+}
+.header-title .header-title-btn{
+    width: 70%;
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-title .header-title-btn a{
+    width: 20%;
+    height: 40px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50px;
+    margin-right: 10px;
+    color: var(--white-color);
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.btn-colorer{
+    background-color: var(--custom-btn-bg-color);
+    border:none ;
+    outline: none;
+    text-align: center;
+}
+.btn-non-colorer{
+    border: 1.5px solid var(--border-color-white);
+}
+/*--------------------------------------------------search section-----------------------------------------*/
+.container-search{
+    position: relative;
+    top: -7%;
+    left: 13%;
+    width:70% ;
+    height: 80px;
+    justify-content: space-around;
+    text-align: start;
+    align-items: center;
+    display: flex;
+    padding: 40px;
+    background-color: var(--primary-color);
+    border-radius: 25px;
+}
+.group-form{
+    display: flex;
+    flex-direction: column;
+}
+.group-form label{
+    color: var(--white-color);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.group-form input,select{
+    color: var(--white-color);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    background-color: var(--primary-color);
+    border: none;
+    border-bottom: 1px solid var(--border-color-primary);
+    color: var(--border-color-white);
+    outline: none;
+}
+.group-form input:focus{
+    border-bottom: 1px solid var(--border-color-primary);
+    outline: none;
+}
+.group-form select{
+    width: 300px;
+}
+/*------------------------------------------------section blog -------------------------------------------*/
+#section-Blog{
+    padding: 100px;
+    padding-bottom: 10px;
+}
+#section-Blog h1,p{
+    text-align: center;
+}
+#section-Blog .section-title{
+    color:#242565 ;
+    font-size: 40px;
+}
+#section-Blog .descriptif-title{
+    font-size: 18px;
+}
+
+.container-blog-card{
+    margin: auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.blog-card{
+    width: 383.43px;
+    height: 560.89px;
+}
+.blog-card p{
+    text-align: start;
+    margin-bottom: 25px;
+    height: 131.3px;
+}
+.blog-card h5{
+    font-family: var(--font-Dm-Sans);
+    font-size: 20px;
+}
+.blog-card h3{
+    font-family: var(--font-Dm-Sans);
+    font-size: 15px;
+    color: #A5A5A5;
+    opacity: 1;
+    height: 131.3px;
+}
+.blog-card img{
+    width: 100%;
+}
+/*--------------------------------------------section Brands-----------------------------------------------------------------------------*/
+#section-Brands {
+    padding: 100px;
+
+}
+#section-Brands h1,p{
+    text-align: center;
+
+}
+#section-Brands .section-title{
+    color:#242565 ;
+    font-size: 40px;
+}
+#section-Brands .section-sous-title{
+    font-size: 18px;
+}
+.container-Brands{
+    display: grid;
+    width: 90%;
+    margin: auto;
+    grid-template-columns: repeat(auto-fill , 230px);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.brand-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    width: 190px;
+    height: 83px;
+    text-align: center;
+    align-items: center;
+    object-fit: cover;
+}
+/*--------------------------------------------Footer-----------------------------------------------------------------------------*/
+footer{
+    padding: 40px;
+    background: #0A075F;
+    color: var(--border-color-white);
+    display: grid;
+    width: 100%;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill ,350px);
+}
+footer :first-child #logo{
+    margin-top: 10px;
+    width: 110px;
+    height: 35px;
+}
+footer :first-child p{
+    text-align: start;
+}
+footer :nth-child(2) #elemnts-second-div{
+    display: flex;
+    flex-direction: column;
+}
+footer :nth-child(2) #elemnts-second-div a{
+    text-decoration: none;
+    color: var(--border-color-white);
+}
+footer :nth-child(3) #elemnts-tree-div{
+    display: flex;
+    flex-direction: column;
+}
+footer :nth-child(3) #elemnts-tree-div a{
+    text-decoration: none;
+    color: var(--border-color-white);
+}
+footer :last-child #elemnts-tree-div{
+    display: flex;
+    flex-direction: column;
+}
+footer :last-child  p{
+    text-align: start;
+    color: var(--border-color-white);
+}
+footer .subscribe-btn{
+    background-color: var(--white-color);
+    border-radius: 50px;
+    width:  300px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .subscribe-btn input{
+    background-color: var(--white-color);
+    border-radius: 50px;
+    height: 40px;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .subscribe-btn button{
+    background-color: #F5167E;
+    border-radius: 50px;
+    height: 40px;
+    width: 120px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
