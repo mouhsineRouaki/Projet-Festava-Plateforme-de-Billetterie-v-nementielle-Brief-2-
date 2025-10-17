@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'MaPolice';
+    src: url("/Fonts/proximanova_bold.otf")
+}
 :root {
   --white-color: #ffffff;
   --primary-color: #242565;
@@ -14,24 +18,6 @@
 
   --Blog-Event-font-family:"Alfa Slab One", serif;
   --Home-font-family:"ADLaM Display", system-ui;
-
-  --h1-font-size: 74px;
-  --h2-font-size: 46px;
-  --h3-font-size: 32px;
-  --h4-font-size: 28px;
-  --h5-font-size: 24px;
-  --h6-font-size: 22px;
-  --p-font-size: 18px;
-  --btn-font-size: 14px;
-  --copyright-font-size: 16px;
-
-  --border-radius-large: 100px;
-  --border-radius-medium: 20px;
-  --border-radius-small: 10px;
-
-  --font-weight-light: 300;
-  --font-weight-normal: 400;
-  --font-weight-bold: 700;
 }
 body{
     padding: 0%;
@@ -225,6 +211,7 @@ a li{
 .blog-card{
     width: 383.43px;
     height: 560.89px;
+    margin-bottom: 50PX;
 }
 .blog-card p{
     text-align: start;
