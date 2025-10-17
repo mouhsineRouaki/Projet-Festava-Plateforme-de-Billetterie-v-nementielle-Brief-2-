@@ -106,7 +106,7 @@ a li {
 }
 
 .header-title p {
-    width: 300px;
+    width: 500px;
     text-align: start;
     font-size: 16px;
     color: var(--border-color-white);
@@ -120,12 +120,14 @@ a li {
 
 .header-title .header-title-btn a {
     width: 50%;
-    padding: 10px;
+    padding: 20px;
     border-radius: 50px;
     margin-right: 10px;
     color: var(--white-color);
     font-weight: bolder;
     text-align: center;
+    font-family: 'MaPolice';
+    font-size: 20px;
     justify-content: space-between;
     text-decoration: none;
 }
@@ -542,4 +544,9 @@ footer .copyRight {
     grid-column: span 4;
     border-top: 2px solid var(--white-color);
     text-align: center;
+}
+@media screen and (max-width: 1000px) {
+    footer .copyRight{
+        grid-column: span 1;
+    }
 }
