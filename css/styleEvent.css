@@ -61,6 +61,12 @@ ul{
     margin-left: auto;
     margin-right: 10%;
 }
+
+a {
+    text-decoration: none;
+    text-decoration-line: none;
+}
+
 a li{
     color: var(--border-color-white);
     font-weight: bold;

@@ -21,24 +21,6 @@
     --Home-font-family: "ADLaM Display", system-ui;
     --font-Dm-Sans: "DM Sans", sans-serif;
     --font-Proximi-Nova: "MaPolice";
-
-    --h1-font-size: 74px;
-    --h2-font-size: 46px;
-    --h3-font-size: 32px;
-    --h4-font-size: 28px;
-    --h5-font-size: 24px;
-    --h6-font-size: 22px;
-    --p-font-size: 18px;
-    --btn-font-size: 14px;
-    --copyright-font-size: 16px;
-
-    --border-radius-large: 100px;
-    --border-radius-medium: 20px;
-    --border-radius-small: 10px;
-
-    --font-weight-light: 300;
-    --font-weight-normal: 400;
-    --font-weight-bold: 700;
 }
 
 body {
@@ -557,6 +539,7 @@ footer .copyRight {
     border: none;
     outline: none;
     width: 100%;
+    grid-column: span 4;
     border-top: 2px solid var(--white-color);
     text-align: center;
 }
