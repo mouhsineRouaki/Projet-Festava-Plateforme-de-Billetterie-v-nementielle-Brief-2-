@@ -1,5 +1,5 @@
 @font-face{
-    font-family: 'MaPolice';
+  font-family: 'MaPolice';
   src: url("/Fonts/proximanova_bold.otf")
 }
 :root {
@@ -32,7 +32,7 @@ body {
 header{
     width: 100%;
     background-image: url(/images/Background.png);
-    background-size: auto;
+    background-size: cover;
     display: flex;
     height: 740px;
     flex-direction: column;
@@ -51,7 +51,7 @@ header{
 }
 
 .logo {
-  font-size: 1.5em;
+  font-size: 1em;
   font-weight: bold;
 }
 
@@ -66,7 +66,7 @@ header{
 .nav-links li a {
   text-decoration: none;
   color: white;
-  transition: 0.3s;
+  width: 250px;
 }
 
 .nav-links li a:hover {
@@ -150,11 +150,12 @@ header{
     position: absolute;
     inset: 0%;
     z-index: 0;
-    opacity: 39%;
+    opacity: 80%;
     width: 100%;
     height: 100%;
     background-color: #333;
     background-image: url(/images/bg2.png);
+    background-size: cover;
 }
 /*-------------------------container search------------------------------*/
 .container-search{
@@ -510,6 +511,9 @@ footer .copyRight{
   .burger {
     display: flex;
   }
+  .logo{
+   width: 120px;
+  }
   .navbar{
     background-color: #333;
   }
@@ -525,7 +529,6 @@ footer .copyRight{
     gap: 0px;
     align-items: center;
     overflow: hidden;
-    transition: width 0.4s ease;
   }
 
   .nav-links.open {
@@ -557,6 +560,7 @@ footer .copyRight{
     grid-template-rows: 1fr 1fr 1fr ;
     height: auto;
 }
+/*-------------------------event--------------------------------*/
 .header-event{
     flex-direction: column;
 }
